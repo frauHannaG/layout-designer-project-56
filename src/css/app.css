@@ -16,7 +16,7 @@ body {
     width: 100%;
     max-width: 100%;
     margin: 0;
-    font-family: roboto, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
     line-height: 1.5;
     color: #cacaca;
     background-color: #08020d;
@@ -64,7 +64,7 @@ h2 {
     color: white;
     margin-top: 0;
     margin-bottom: 48px;
-    font-family: roboto-bold, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
 }
 
 .text-align-left {
@@ -118,7 +118,7 @@ a {
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
-    font-family: roboto, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
 }
 .header ul {
     display: flex;
@@ -218,12 +218,12 @@ a {
 }
 #page-description input::-moz-placeholder {
     color: white;
-    font-family: roboto-bold, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
     font-size: 14px;
 }
 #page-description input::placeholder {
     color: white;
-    font-family: roboto-bold, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
     font-size: 14px;
 }
 #page-description .btn-green {
@@ -235,7 +235,7 @@ a {
     .absolute-header {
         flex-direction: column;
         align-items: center;
-        font-family: roboto-bold, sans-serif;
+        font-family: Roboto-Bold, sans-serif;
     }
     .absolute-header .logo {
         align-self: flex-start;
@@ -490,7 +490,7 @@ a {
 .footer-wrapper h2 {
     margin: 14px 0 16px;
     font-size: 18px;
-    font-family: roboto-bold, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
     color: white;
     line-height: 27px;
 }
