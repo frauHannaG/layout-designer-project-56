@@ -79,8 +79,8 @@ h2 {
     margin-right: 16px;
 }
 
-.mb-60 {
-    margin-bottom: 60px;
+.mb-64 {
+    margin-bottom: 64px;
 }
 
 .mr-24 {
@@ -370,16 +370,17 @@ a {
     align-items: center;
     font-size: 12px;
     height: 19px;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 #page-news .news-item .news-body .news-author p {
     color: #F89202;
     margin-bottom: 0;
 }
 #page-news .news-item .news-body .btn-album {
+    display: block;
     padding: 18px 30px;
     border-radius: 5px;
-    width: 100%;
+    width: 135px;
     font-size: 12px;
     border: 1px solid #cacaca;
     color: #cacaca;
