@@ -334,6 +334,16 @@ a {
         font-size: 16px;
         font-weight: 70 0;
     }
+
+    #page-pricing .pricing-wrapper .bg-free {
+        background-position: unset;
+    }
+    #page-pricing .pricing-wrapper .bg-standart {
+        background-position: unset;
+    }
+    #page-pricing .pricing-wrapper .bg-premium {
+        background-position: unset;
+    }
 }
 
 #page-news .news-item {
