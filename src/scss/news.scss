@@ -1,0 +1,103 @@
+@import "variables.scss";
+
+#page-news {
+    .news-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 290px;
+        gap: 50px;
+
+        .news-flex {
+            max-width: 575px;
+            width: 100%;
+            text-align: left;
+
+            .img-flex {
+                width: 100%;
+            }
+        }
+
+        .news-body {
+
+            h3 {
+                font-size: 30px;
+                font-weight: 400;
+                margin-top: 0;
+                margin-bottom: 28px;
+            }
+            p {
+                color: $text-base-color;
+                margin-bottom: 24px;
+            }
+
+            span {
+                color: $text-base-color;
+            }
+
+            .news-author {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 12px;
+                height: 19px;
+                margin-bottom: 60px;
+
+                p {
+                    color: $orange-color;
+                    margin-bottom: 0;
+                }
+
+            }
+
+            .btn-album {
+                padding: 18px 30px;
+                border-radius: 5px;
+                width: 100%;
+                font-size: 12px;
+                border: 1px solid $text-base-color;
+                color: $text-base-color;
+            }
+        }
+    }
+
+    @media (max-width: 808px) {
+        .news-item {
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+
+            .news-flex {
+                width: 100%;
+
+                .img-flex {
+                    height: auto;
+                    display: block;
+                }
+            }
+
+            .news-body {
+                h3 {
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                }
+
+                .news-author {
+                    p {
+                        font-size: 12.8px;
+                    }
+                }
+            }
+
+        }
+
+        .mb-65 {
+            margin-bottom: 75px;
+        }
+
+        .flex-order {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+}

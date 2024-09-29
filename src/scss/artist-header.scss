@@ -1,0 +1,57 @@
+@import "variables.scss";
+
+.artist-header {
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#page-description {
+    .artist-title {
+        margin-top: 50px;
+    }
+
+    .artist-text {
+        color: $white-color;
+        margin-bottom: 48px;
+    }
+
+    .svg-img {
+        width: 20px;
+        filter: invert(1);
+    }
+
+    .btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 24px;
+    }
+
+    .svg-btn {
+        width: 200px;
+        height: 62px;
+        border: none;
+        font-size: 12.8px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &:first-of-type {
+            background-color: $purple-color;
+        }
+
+        &:last-of-type {
+            background-color: $orange-transparent-color;
+        }
+    }
+
+    @media (max-width: 808px) {
+        .artist-title {
+            margin-top: 28px;
+        }
+    }
+}
+
+

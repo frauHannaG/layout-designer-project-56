@@ -1,0 +1,90 @@
+@import "variables.scss";
+
+#page-pricing {
+
+    .pricing-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: calc(3% + 10px);
+
+        .pricing-item {
+            width: 368px;
+            padding: 0 1.5rem;
+            border-radius: 1rem;
+
+            h3 {
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 200px;
+            }
+
+            .pricing-value {
+                font-size: 64px;
+                line-height: 1em;
+                margin-bottom: 40px;
+
+                span {
+                    font-size: 32px;
+                    line-height: 48px;
+                    vertical-align: top;
+                    padding-left: 16px;
+                }
+            }
+
+           .btn {
+                display: block;
+                font-size: 16px;
+                margin-bottom: 64px;
+           }
+
+           .pricing-footer {
+            font-size: 13px;
+            line-height: 19px;
+            margin-bottom: 64px;
+           }
+        }
+
+        .bg-free {
+            background-image: url("../images/subscribe_1.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+       .bg-standart {
+            background-image: url("../images/subscribe_2.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bg-premium {
+            background-image: url("../images/subscribe_3.png");
+            background-position: center;
+            background-size: cover;
+       }
+    }
+
+    .footer-text {
+        margin: 42px auto 0;
+    }
+
+    @media (max-width:808px) {
+        .pricing-wrapper {
+            flex-direction: column;
+            align-content: center;
+            row-gap: 50px;
+
+            .pricing-item {
+                min-width: 374px;
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 70 0;
+                }
+            }
+        }
+    }   
+}
+
+

@@ -1,0 +1,123 @@
+@import "variables.scss";
+
+@font-face {
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: $font-roboto-400;
+    line-height: 1.5;
+    color: $text-base-color;
+    background-color: $bg-color;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 700;;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 13.3px;
+    border: 1px solid white;
+    color: white;
+}
+
+.page-element {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    color: $white-color;
+}
+
+.main-title {
+    color: $white-color;
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-family: $font-roboto-700;
+    
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.artist-title {
+    color: $white-color;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+

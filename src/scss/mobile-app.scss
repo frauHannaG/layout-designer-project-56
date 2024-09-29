@@ -1,0 +1,46 @@
+@import "variables.scss";
+
+#page-app {
+    margin-bottom: 100px;
+    
+    .mobile-flex {
+        display: flex;
+        justify-content: space-between;
+
+        .mobile-element {
+            width: 50%;
+
+        }
+
+        .align-left {
+            text-align: left;
+            color: $text-base-color;
+
+            .btn-orange {
+                border: none;
+                background-color: $orange-transparent-color;
+                border-radius: 32px;
+                padding: 16px 40px;
+                font-size: 12.8px;
+                display: block;
+                width: 131px;
+            }
+        }
+    }
+
+    @media (max-width:808px) {
+        .mobile-flex {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .mobile-element {
+                width: 100%;
+
+                p {
+                    margin-top: 10px;
+                }
+            }
+
+        }
+    }
+}

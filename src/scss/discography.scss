@@ -1,0 +1,56 @@
+@import "variables.scss";
+
+#page-discography,
+#page-similar {
+    padding-top: 100px;
+    color: $gray-color;
+}
+
+.grid-4-wrapper {
+    display: grid;
+    gap: 25px 50px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    margin-top: 47px;
+
+    .discography-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .align-center {
+        text-align: center;
+    }
+}
+
+.discography-name-song {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+    color: $white-color;
+}
+
+.song-year {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.fans {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 600px) {
+    .grid-4-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 0;
+
+        .discography-item {
+            max-width: 137px;
+        }
+    }
+
+    .discography-item-img {
+        width: 137px;
+        height: 137px;
+    }
+}
