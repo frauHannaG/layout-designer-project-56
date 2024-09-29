@@ -1,5 +1,3 @@
-@import "variables.scss";
-
 .header {
     position: relative;
     width: 100%;
@@ -8,9 +6,8 @@
 
     ul {
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
         padding: 0;
  
         li {
@@ -125,12 +122,10 @@
     }
 }
 
-@media (max-width: 815px) {
-
+@media (width <= 815px) {
     .absolute-header {
         flex-direction: column;
         align-items: center;
-        // height: fit-content;
         font-family: $font-roboto-700;
 
         .logo {
@@ -153,9 +148,7 @@
     }
 
     #page-description {
-
         form {
-            
             input {
                 flex-grow: 1;
             }

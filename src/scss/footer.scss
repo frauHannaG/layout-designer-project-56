@@ -1,12 +1,10 @@
-@import "variables.scss";
-
 .footer {
     a,
     li {
         color: $gray-color;
     }
 
-    @media (max-width: 808px) {
+    @media (width <= 808px) {
         .footer-wrapper {
             .footer-flex {
                 ul {
@@ -25,9 +23,11 @@
         }
     }
 }
+
 .bg-gradient {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
