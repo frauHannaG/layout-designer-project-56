@@ -1,11 +1,7 @@
-@import "variables.scss";
-
 #page-pricing {
-
     .pricing-wrapper {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
         justify-content: space-around;
         column-gap: calc(3% + 10px);
 
@@ -69,7 +65,7 @@
         margin: 42px auto 0;
     }
 
-    @media (max-width:808px) {
+    @media (width <= 808px) {
         .pricing-wrapper {
             flex-direction: column;
             align-content: center;
